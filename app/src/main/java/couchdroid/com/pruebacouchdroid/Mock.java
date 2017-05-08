@@ -1,6 +1,6 @@
 package couchdroid.com.pruebacouchdroid;
 
-import com.couchdroid.CouchdroidObject;
+import com.couchdroid.object.CouchdroidObject;
 
 /**
  * Created by jacobotapia on 05/05/17.

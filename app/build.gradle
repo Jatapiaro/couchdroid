@@ -43,6 +43,5 @@ dependencies {
     compile 'com.android.support:design:25.3.1'
     testCompile 'junit:junit:4.12'
     compile 'com.couchbase.lite:couchbase-lite-android:1.4.0'
-    compile 'com.couchbase.lite:couchbase-lite-java:1.4.0'
     compile project(path: ':couchdroid')
 }
