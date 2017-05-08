@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <EditText
+        android:id="@+id/editDoggoNombre"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:inputType="text"
+        android:hint="Nombre"
+        android:singleLine="true" >
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/editDoggoRaza"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editDoggoNombre"
+        android:hint="Raza"
+        android:inputType="text"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/editDoggoEdad"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editDoggoRaza"
+        android:hint="Edad"
+        android:inputType="phone"
+        android:singleLine="true"/>
+
+    <EditText
+        android:id="@+id/editDoggoJuguetes"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/editDoggoEdad"
+        android:hint="Juguetes"
+        android:inputType="text"
+        android:singleLine="true"/>
+
+</RelativeLayout>

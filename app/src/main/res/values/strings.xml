@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Doggos</string>
+    <string name="action_settings">Settings</string>
+    <string name="database_name">Doggos</string>
+</resources>
